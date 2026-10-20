@@ -111,3 +111,10 @@
 - 两者均已被 `.gitignore` 排除，不会上传 GitHub
 - `assembleRelease` 已生成签名版 `app-release.apk`，apksigner V2 校验通过（CN=VIP Card）
 - 注意：`.jks` 与 `keystore.properties` 必须妥善备份，丢失后将无法更新已发布应用
+
+### 发布：GitHub Release v1.0.0
+- 在 `OrangeBoston/VIPCard` 创建并 published Release：标签 `v1.0.0`（由 master `e8bbcd8` 新建），标题「VIP Card v1.0.0」，标记为 Latest
+- 页面：https://github.com/OrangeBoston/VIPCard/releases/tag/v1.0.0
+- 附件 `VIPCard-v1.0.0.apk`（签名版，5,689,725 字节，SHA-256 `87b8f81508043accba576d3ba2f73e33fc21e46c37280dfd711d3391c0ff9d87`）；下载链接已实测返回 200 且大小一致
+- 说明正文仅包含功能、安装要求与本地存储说明，手机号示例使用 15666666666，无个人信息、无签名口令
+- 用于上传的根目录临时副本已删除；`.gitignore` 新增 `*.apk` 避免误提交构建产物
