@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">我的会员卡</string>
+    <string name="add_card">添加会员卡</string>
+    <string name="edit_card">编辑会员卡</string>
+    <string name="delete_card">删除</string>
+    <string name="hint_store_name">商店名称</string>
+    <string name="hint_phone_number">手机号</string>
+    <string name="btn_save">保存</string>
+    <string name="btn_cancel">取消</string>
+    <string name="btn_delete">删除</string>
+    <string name="delete_confirm_title">确认删除</string>
+    <string name="delete_confirm_msg">确定要删除「%s」的会员卡吗？</string>
+    <string name="deleted">已删除</string>
+    <string name="empty_hint">还没有会员卡\n点击右下角 + 添加</string>
+    <string name="default_badge">默认</string>
+    <string name="set_default">设为默认</string>
+    <string name="close">关闭</string>
+    <string name="announce">语音播报</string>
+    <string name="tts_unavailable">系统未安装语音播报引擎，无法播报</string>
+</resources>

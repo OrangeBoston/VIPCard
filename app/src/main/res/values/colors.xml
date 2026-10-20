@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="app_background">#FF0B0B0D</color>
+    <color name="app_surface">#FF121216</color>
+    <color name="card_background">#FF17171B</color>
+    <color name="outline_subtle">#26FFFFFF</color>
+
+    <color name="accent">#FFEF4444</color>
+    <color name="on_accent">#FFFFFFFF</color>
+
+    <color name="text_primary">#FFF2F2F5</color>
+    <color name="text_secondary">#FF8E8E96</color>
+    <color name="error_muted">#FFE57373</color>
+</resources>
